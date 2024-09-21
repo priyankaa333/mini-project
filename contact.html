@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Section</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Interio</div>
+        <ul class="nav-links">
+            <li><a href="mini.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="projects.html">projects</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+    <header></header>
+
+
+
+
+
+
+    <section class="contact-section">
+        <div class="contact-content">
+            <h1>Let's Talk</h1>
+            <p>Got a project on your mind? Let's discuss about the details.</p>
+            <a class="phone-number">Call Us<br><span>+12 9887 234 122</span></a>
+            <div class="social-icons">
+                <a href="#"><img src="icons8-facebook-50.png" alt="Facebook"></a>
+                <a href="#"><img src="icons8-twitter-50.png" alt="Twitter"></a>
+                <a href="#"><img src="icons8-youtube-50.png" alt="YouTube"></a>
+            </div>
+        </div>
+        <div class="contact-form">
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="d8fd0883-70fa-46fe-89aa-b089fa02e10a">
+                <input type="text" name="name" placeholder="Name" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="foot">
+            <h2>New York Office</h2>
+            <h5>555-1234</h5>
+            <h5>info@interio.com</h5>
+            <p>123 Main Street, Suite 200 City; Antytown <br>State:StateName</p>
+        </div>
+        <div class="foot">
+            <h2>Paris Office</h2>
+            <h5>+33 1 23 45 67 89</h5>
+            <h5>info@interioparis.com</h5>
+            <p>123 Rue de la Paix, 75002 Paris,France</p>
+        </div>
+        <div class="foot">
+            <h2>Berlin Office</h2>
+            <h5>+49 30 12345678</h5>
+            <h5>info@interioberlin.com</h5>
+            <p>Mauerstrasse 45, 10117 Berlin, Germany</p>
+        </div>
+    </footer>
+
+    <div class="footer-2">
+        <p>©2023 Interio Inc. - New York</p>
+    </div>
+
+
+
+
+
+
+
+
+
+    <script>
+    const hamburger = document.querySelector('.hamburger');
+    const navLinks = document.querySelector('.nav-links');
+    
+    hamburger.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+    });
+    </script>
+</body>
+</html>

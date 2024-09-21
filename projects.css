@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header{
+position: relative;
+top: 0;
+left: 0;
+width: 100%;
+padding: 1.3rem 10%;
+z-index: 100;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.header::before{
+content: '';
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: white;
+/* backdrop-filter: blur(50px); */
+z-index: -1;
+}
+.icons{
+position: absolute;
+right: 5%;
+font-size: 2.8rem;
+color: #2a274d;
+cursor: pointer;
+display: none;
+}
+.logo{
+font-size: 2.5rem;
+color: #2a274d;
+text-decoration: none;
+font-weight: 700;
+font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+.navbar a{
+font-size: 1rem;
+color: #2a274d;
+text-decoration: none;
+font-weight: 500;
+margin-left: 2.5rem;
+font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+#check{
+display: none;
+}
+
+
+
+.home h1{
+    text-align: center;
+    font-size: 100px;
+    font-family: "Almarai", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    padding: 20px;
+    color: #2a274d;
+}
+
+
+.body-1{
+    height: 100%;
+    width: 100%;
+    /* background: #000; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px;
+}
+.body-1 .card-1{
+    /* background: red; */
+    height: 100%;
+    width: 100%;
+    padding: 0px 20px;
+}
+.body-1 .card-1:hover{
+    transform: scale(1.05);
+}
+.body-1 .card-1 h3{
+    font-size: 30px;
+    padding: 10px 20px;
+    color: #2a274d;
+}
+.body-1 .card-1 p{
+    font-size: 15px;
+    padding: 0px 20px;
+    color: #2a274d;
+}
+.body-1 .card-2{
+    /* background: rgb(27, 175, 183); */
+    height: 100%;
+    width: 100%;
+    padding: 0px 20px;
+}
+.body-1 .card-2:hover{
+    transform: scale(1.05);
+}
+.body-1 .card-2 h3{
+    font-size: 30px;
+    padding: 10px 20px;
+    color: #2a274d;
+}
+.body-1 .card-2 p{
+    font-size: 15px;
+    padding: 0px 20px;
+    color: #2a274d;
+}
+.body-1 .card-3{
+    /* background: rgb(20, 138, 69); */
+    height: 100%;
+    width: 100%;
+    padding: 0px 20px;
+}
+.body-1 .card-3:hover{
+    transform: scale(1.05);
+}
+.body-1 .card-3 h3{
+    font-size: 30px;
+    padding: 10px 20px;
+    color: #2a274d;
+}
+.body-1 .card-3 p{
+    font-size: 15px;
+    padding: 0px 20px;
+    color: #2a274d;
+}
+
+.body-1 .card-1 img{
+    height: auto;
+    width: 100%;
+}
+.body-1 .card-2 img{
+    height: auto;
+    width: 100%;
+}
+.body-1 .card-3 img{
+    height: auto;
+    width: 100%;
+}
+
+
+
+
+
+
+.body-2{
+    height: 100%;
+    width: 100%;
+    /* background: #000; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px;
+}
+.body-2 .card-1{
+    /* background: red; */
+    height: 100%;
+    width: 100%;
+    padding: 0px 20px;
+}
+.body-2 .card-1:hover{
+    transform: scale(1.05);
+}
+.body-2 .card-1 h3{
+    font-size: 30px;
+    padding: 10px 20px;
+    color: #2a274d;
+}
+.body-2 .card-1 p{
+    font-size: 15px;
+    padding: 0px 20px;
+    color: #2a274d;
+}
+.body-2 .card-2{
+    /* background: rgb(27, 175, 183); */
+    height: 100%;
+    width: 100%;
+    padding: 0px 20px;
+}
+.body-2 .card-2:hover{
+    transform: scale(1.05);
+}
+.body-2 .card-2 h3{
+    font-size: 30px;
+    padding: 10px 20px;
+    color: #2a274d;
+}
+.body-2 .card-2 p{
+    font-size: 15px;
+    padding: 0px 20px;
+    color: #2a274d;
+}
+.body-2 .card-3{
+    /* background: rgb(20, 138, 69); */
+    height: 100%;
+    width: 100%;
+    padding: 0px 20px;
+}
+.body-2 .card-3:hover{
+    transform: scale(1.05);
+}
+.body-2 .card-3 h3{
+    font-size: 30px;
+    padding: 10px 20px;
+    color: #2a274d;
+}
+.body-2 .card-3 p{
+    font-size: 15px;
+    padding: 0px 20px;
+    color: #2a274d;
+}
+
+
+
+
+
+.body-2 .card-1 img{
+    height: auto;
+    width: 100%;
+}
+.body-2 .card-2 img{
+    height: auto;
+    width: 100%;
+}
+.body-2 .card-3 img{
+    height: auto;
+    width: 100%;
+}
+
+
+
+
+.footer-2{
+    padding: 30px;
+    text-align: center;
+  }
+  .footer-2 p{
+    word-spacing: 5px;
+    font-size: 20px;
+    color: #19182d;
+  }
+
+
+
+
+
+
+@media(max-width: 992px){
+  .header{
+    padding: 1.3rem 5%;
+  }
+  .body-1{
+    display: flex;
+    flex-direction: column;
+  }
+  .body-1 .card-1, .body-1 .card-2, .body-1 .card-3{
+    margin: 50px 0;
+  }
+  .body-1 .card-1 h3, .body-1 .card-2 h3,.body-1 .card-3 h3 {
+    font-size: 40px;
+    text-align: center;
+  }
+  .body-1 .card-1 p, .body-1 .card-2 p,.body-1 .card-3 p{
+    font-size: 25px;
+    text-align: center;
+  }
+  .body-2{
+    display: flex;
+    flex-direction: column;
+  }
+  .body-2 .card-1, .body-2 .card-2, .body-2 .card-3{
+    margin: 50px 0;
+  }
+  .body-2 .card-1 h3, .body-2 .card-2 h3,.body-2 .card-3 h3 {
+    font-size: 40px;
+    text-align: center;
+  }
+  .body-2 .card-1 p, .body-2 .card-2 p,.body-2 .card-3 p{
+    font-size: 25px;
+    text-align: center;
+  }
+  
+
+}
+@media(max-width: 768px){
+  .icons{
+    display: inline-flex;
+  }
+  #check:checked~.icons #menu-icon {
+    display: none;
+  }
+  .icons #close-icon{
+    display: none;
+  }
+  #check:checked~.icons #close-icon {
+    display: block;
+  }
+  .navbar{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background: red;
+    background: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(50px);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: 0.3s ease;
+  }
+  #check:checked~.navbar {
+    height: 17.7rem;
+  }
+  .navbar a{
+    display: block;
+    font-size: 1.1rem;
+    margin: 1.5rem 0;
+    text-align: center;
+    transform: translateY(-50px);
+    opacity: 0;
+    transition: .3s ease;
+  }
+  #check:checked~.navbar a {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  .home h1{
+    font-size: 80px;
+  }
+
+}
+
+@media (max-width:546px){
+
+    .home h1{
+        font-size: 70px;
+    }
+    .logo{
+        font-size: 30px;
+    }
+    .icons{
+        font-size: 30px;
+    }
+    .body-1 .card-1 h3, .body-1 .card-2 h3,.body-1 .card-3 h3 {
+        font-size: 25px;
+        
+    }
+    .body-2 .card-1 h3, .body-2 .card-2 h3,.body-2 .card-3 h3 {
+        font-size: 27px;
+        
+        
+    }
+    .body-1 .card-1 p, .body-1 .card-2 p,.body-1 .card-3 p{
+        font-size: 18px;
+        text-align: center;
+    }
+    .body-2 .card-1 p, .body-2 .card-2 p,.body-2 .card-3 p{
+        font-size: 18px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
